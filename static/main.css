@@ -53,3 +53,12 @@ a.links-a-list:hover {
     margin-top: 7%;
     margin-bottom: 7%;
 }
+
+.images-display {
+    width: 40%;
+    height: 0;
+    padding-bottom: 40%;
+    background-image: url(rin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
