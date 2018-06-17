@@ -1,5 +1,6 @@
 * {
     color: white;
+    font-family: monospace;
 }
 
 html {
@@ -14,7 +15,7 @@ html {
 
 .title {
     font-style: italic;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .bigframe {
@@ -26,4 +27,29 @@ html {
     margin: 5%;
     padding: 1%;
     border: double 10px green;
+}
+
+.links {
+    box-orient: vertical;
+}
+
+.links>a {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -o-box;
+    display: -ms-box;
+}
+
+a.links-a-list {
+    color: grey;
+}
+
+a.links-a-list:hover {
+    color: magenta;
+}
+
+.link-display {
+    margin-top: 7%;
+    margin-bottom: 7%;
 }

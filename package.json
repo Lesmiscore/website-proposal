@@ -4,7 +4,8 @@
   "description": "Proposal of my new website",
   "main": "index.js",
   "scripts": {
-    "test": "true"
+    "test": "true",
+    "static": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/nao20010128nao/website-proposal/issues"
   },
-  "homepage": "https://github.com/nao20010128nao/website-proposal#readme"
+  "homepage": "https://github.com/nao20010128nao/website-proposal#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  }
 }
