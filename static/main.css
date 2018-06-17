@@ -1,0 +1,29 @@
+* {
+    color: white;
+}
+
+html {
+    background: black;
+}
+
+.header-code,
+.header-code>code {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-style: italic;
+    margin-bottom: 10%;
+}
+
+.bigframe {
+    margin: 1%;
+    border: double 10px cyan;
+}
+
+.frame {
+    margin: 5%;
+    padding: 1%;
+    border: double 10px green;
+}

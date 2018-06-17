@@ -1,0 +1,22 @@
+{
+  "name": "website-proposal",
+  "version": "1.0.0",
+  "description": "Proposal of my new website",
+  "main": "index.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nao20010128nao/website-proposal.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "nao20010128nao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nao20010128nao/website-proposal/issues"
+  },
+  "homepage": "https://github.com/nao20010128nao/website-proposal#readme"
+}
