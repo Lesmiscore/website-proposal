@@ -1,0 +1,64 @@
+* {
+    color: white;
+    font-family: monospace;
+}
+
+html {
+    background: black;
+}
+
+.header-code,
+.header-code>code {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-style: italic;
+    margin-bottom: 8%;
+}
+
+.bigframe {
+    margin: 1%;
+    border: double 10px cyan;
+}
+
+.frame {
+    margin: 5%;
+    padding: 1%;
+    border: double 10px green;
+}
+
+.links {
+    box-orient: vertical;
+}
+
+.links>a {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -o-box;
+    display: -ms-box;
+}
+
+a.links-a-list {
+    color: grey;
+}
+
+a.links-a-list:hover {
+    color: magenta;
+}
+
+.link-display {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.images-display {
+    width: 40%;
+    height: 0;
+    padding-bottom: 40%;
+    background-image: url(rin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
