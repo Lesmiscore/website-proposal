@@ -41,11 +41,11 @@ html {
     display: -ms-box;
 }
 
-a.links-a-list {
+a.point {
     color: grey;
 }
 
-a.links-a-list:hover {
+a.point:hover {
     color: magenta;
 }
 

@@ -11,6 +11,8 @@ function setupLinkHrefPreview(links, text) {
 $(() => {
     // links
     setupLinkHrefPreview(".links-a-list", "#links-link-preview");
+    // in this website
+    setupLinkHrefPreview(".sitemap-a-list", "#sitemap-link-preview");
     // images
     const images = ["rin.png", "miku.png"];
     let imageOffset = 0;
