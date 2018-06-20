@@ -2,11 +2,15 @@ console.log("Loaded");
 
 const $ = require("jquery");
 
+function setupLinkHrefPreview(links, text) {
+    $(links).hover(function () {
+        $(text).text($(this).attr("href"));
+    }, () => {});
+}
+
 $(() => {
     // links
-    $(".links-a-list").hover(function () {
-        $("#links-link-preview").text($(this).attr("href"));
-    }, () => {});
+    setupLinkHrefPreview(".links-a-list", "#links-link-preview");
     // images
     const images = ["rin.png", "miku.png"];
     let imageOffset = 0;
