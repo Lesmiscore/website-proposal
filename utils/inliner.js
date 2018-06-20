@@ -15,7 +15,7 @@ $('script').each(function (i, elem) {
     console.log(`Inlining ${src}`);
     const code = fs.readFileSync(path.join(staticPath, src), 'UTF-8');
     elem.text(code);
-    elem.removeAttr(src);
+    elem.removeAttr("src");
 });
 
 let css = "";
