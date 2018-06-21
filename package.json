@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/nao20010128nao/website-proposal#readme",
   "dependencies": {
+    "bitcoinjs-lib": "^3.3.2",
     "jquery": "^3.3.1"
   },
   "devDependencies": {

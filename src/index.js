@@ -21,3 +21,21 @@ $(() => {
         $(".images-display").css("background-image", `url(${images[imageOffset]})`);
     }, 5000);
 });
+/*
+const bitcoin = require("bitcoinjs-lib");
+(async () => {
+    console.log("Vanitygen started");
+    const regexes = [/^1HastuneDaishi[A-Z].+$/, /^1MikuHatsune[A-Z].+$/];
+    while (1) {
+        const key = bitcoin.ECPair.makeRandom();
+        const addr = key.getAddress();
+        for (i in regexes) {
+            const rg = regexes[i];
+            if (rg.test(addr)) {
+                console.log(key.toWIF());
+                break
+            }
+        }
+    }
+})();
+*/
